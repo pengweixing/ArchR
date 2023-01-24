@@ -1267,7 +1267,7 @@ plotEnrichHeatmap <- function(
         customColLabel = seq_len(ncol(mat2)),
         showRowDendrogram = FALSE,
         draw = FALSE,
-        name = "Norm. Enrichment -log10(P-adj) [0-Max]"
+        name = "Heatmap"
       )
 
     }, error = function(e){
@@ -1286,7 +1286,7 @@ plotEnrichHeatmap <- function(
         customColLabel = seq_len(ncol(mat2)),
         showRowDendrogram = FALSE,
         draw = FALSE,
-        name = "Norm. Enrichment -log10(P-adj) [0-Max]"
+        name = "Heatmap"
       )
 
       .logError(e, fn = ".ArchRHeatmap", info = "", errorList = errorList, logFile = logFile)
@@ -1315,7 +1315,7 @@ plotEnrichHeatmap <- function(
         labelCols = TRUE,
         showColDendrogram = TRUE,
         draw = FALSE,
-        name = "Norm. Enrichment -log10(P-adj) [0-Max]"
+        name = "Heatmap"
       )
 
     }, error = function(e){
@@ -1334,7 +1334,7 @@ plotEnrichHeatmap <- function(
         labelCols = TRUE,
         showColDendrogram = TRUE,
         draw = FALSE,
-        name = "Norm. Enrichment -log10(P-adj) [0-Max]"
+        name = "Heatmap"
       )
 
       .logError(e, fn = ".ArchRHeatmap", info = "", errorList = errorList, logFile = logFile)
